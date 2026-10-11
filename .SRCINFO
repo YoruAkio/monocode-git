@@ -1,0 +1,25 @@
+pkgbase = monocode-git
+	pkgdesc = A GUI for your coding agents
+	pkgver = 0.12.0.r15.gab5dee1
+	pkgrel = 1
+	url = https://github.com/hardbeat920/monocode
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	makedepends = nodejs
+	makedepends = npm
+	depends = glibc
+	depends = gtk3
+	depends = hicolor-icon-theme
+	depends = libayatana-appindicator
+	depends = openssl
+	depends = webkit2gtk-4.1
+	provides = monocode
+	conflicts = monocode
+	source = git+https://github.com/hardbeat920/monocode.git
+	source = monocode.desktop
+	sha256sums = SKIP
+	sha256sums = 2b82316d28c250bd2127b1afbb385451411e33004f0a3fd8a523e7aba3f41e8a
+
+pkgname = monocode-git
